@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import LoginForm from "../../src/components/LoginForm";
+import Saludar from "../../src/components/Saludar";
 
 export default function HomeScreen() {
   return (
@@ -8,6 +9,7 @@ export default function HomeScreen() {
       <Text>Hola DEVICE</Text>
       <Text>Hola Mundo</Text>
       <LoginForm />
+      <Saludar name="Jose Antonio" />
     </View>
   );
 }
