@@ -9,7 +9,7 @@ export default function HomeScreen() {
       <Text>Hola DEVICE</Text>
       <Text>Hola Mundo</Text>
       <LoginForm />
-      <Saludar name="Jose Antonio" />
+      <Saludar firstname="Jose Antonio" lastname="Alatorre Chavez" />
     </View>
   );
 }
